@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Wines &mdash; Website Template by Colorlib</title>
+  <title>Mianptmh &mdash; Website Template by Colorlib</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -50,11 +50,9 @@
     <div class="header-top">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 text-center">
-            <a href="index.html" class="site-logo">
-              <img src="assets/frontend/wines/images/logo.png" alt="Image" class="img-fluid">
-            </a>
-          </div>
+                <div class="col-md-8">
+                    <h1>AYAMKU</h1>
+                </div>
           <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                 class="icon-menu h3"></span></a>
         </div>
@@ -90,19 +88,18 @@
 
 
     <div class="owl-carousel hero-slide owl-style">
-      <div class="intro-section container" style="background-image: url('assets/frontend/wines/images/ayam4.jpeg');">
+      <div class="intro-section container" style="background-image: url('assets/frontend/wines/images/images.jpg');">
         <div class="row justify-content-center text-center align-items-center">
           <div class="col-md-8">
-            <span class="sub-title">Jual Beli</span>
-            <h1>Selamat Datang Di Tokoh Ayamku</h1>
+            <h1>Jual Beli</h1>
           </div>
         </div>
       </div>
 
-      <div class="intro-section container" style="background-image: url('assets/frontend/wines/images/ayam5.jpeg');">
+      <div class="intro-section container" style="background-image: url('assets/frontend/wines/images/images.jpg');">
         <div class="row justify-content-center text-center align-items-center">
           <div class="col-md-8">
-            <h1></h1>
+              <h1>Selamat Datang Di Toko Ayamku</h1>
           </div>
         </div>
       </div>
@@ -116,8 +113,8 @@
 
         <div class="row mb-5">
           <div class="col-12 section-title text-center mb-5">
-            <h2 class="d-block">Our Products</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, perspiciatis!</p>
+            <h2 class="d-block"></h2>Products</h2>
+            <p>welcome to our product and please see</p>
             <p><a href="#">View All Products <span class="icon-long-arrow-right"></span></a></p>
           </div>
         </div>
@@ -126,17 +123,18 @@
           <div class="col-lg-4 mb-5 col-md-6">
 
             <div class="wine_v_1 text-center pb-4">
-              <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="assets/frontend/wines/images/wine_2.png" alt="Image" class="img-fluid"></a>
+              <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="assets/frontend/wines/images/brahma.jpg" alt="Image" class="img-fluid"></a>
               <div>
-                <h3 class="heading mb-1"><a href="#">Trius Cabernet France 2011</a></h3>
-                <span class="price">$629.00</span>
+                <h3 class="heading mb-1"><a href="#">Ayam Brahma</a></h3>
+                <span class="price">Rp.150.000.000</span>
               </div>
 
 
               <div class="wine-actions">
 
-                <h3 class="heading-2"><a href="#">Trius Cabernet France 2011</a></h3>
-                <span class="price d-block">$629.00</span>
+                <h3 class="heading-2"><a href="#">Ayam Brahma</a></h3>
+                <span class="price d-block"><del>Rp.200.000.0000</del> Rp.150.000.000</span>
+
 
                 <div class="rating">
                   <span class="icon-star"></span>
@@ -154,17 +152,16 @@
 
           <div class="col-lg-4 mb-5 col-md-6">
             <div class="wine_v_1 text-center pb-4">
-              <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="assets/frontend/wines/images/wine_3.png" alt="Image" class="img-fluid"></a>
+              <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="assets/frontend/wines/images/ayamketawa.jpg" alt="Image" class="img-fluid"></a>
               <div>
-                <h3 class="heading mb-1"><a href="#">Trius Cabernet France 2011</a></h3>
-                <span class="price">$629.00</span>
+                <h3 class="heading mb-1"><a href="#">Ayam Ketawa</a></h3>
+                <span class="price">Rp.150.000.000</span>
               </div>
-
 
               <div class="wine-actions">
 
-                <h3 class="heading-2"><a href="#">Trius Cabernet France 2011</a></h3>
-                <span class="price d-block"><del>$900.00</del> $629.00</span>
+                <h3 class="heading-2"><a href="#">Ayam Ketawa</a></h3>
+                <span class="price d-block"><del>Rp.200.000.0000</del> Rp.150.000.000</span>
 
                 <div class="rating">
                   <span class="icon-star"></span>
@@ -181,17 +178,17 @@
 
           <div class="col-lg-4 mb-5 col-md-6">
             <div class="wine_v_1 text-center pb-4">
-              <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="assets/frontend/wines/images/wine_1.png" alt="Image" class="img-fluid"></a>
+              <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="assets/frontend/wines/images/cemani.jpg" alt="Image" class="img-fluid"></a>
               <div>
-                <h3 class="heading mb-1"><a href="#">Trius Cabernet France 2011</a></h3>
-                <span class="price">$629.00</span>
+                <h3 class="heading mb-1"><a href="#">Ayam Cemani</a></h3>
+                <span class="price">Rp.150.000.000</span>
               </div>
 
 
               <div class="wine-actions">
 
-                <h3 class="heading-2"><a href="#">Trius Cabernet France 2011</a></h3>
-                <span class="price d-block"><del>$900.00</del> $629.00</span>
+                <h3 class="heading-2"><a href="#">Ayam Cemani</a></h3>
+                <span class="price d-block"><del>Rp.200.000.0000</del> Rp.150.000.000</span>
 
                 <div class="rating">
                   <span class="icon-star"></span>
@@ -252,39 +249,45 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 section-title text-center mb-5">
-            <h2 class="d-block">Wine's Blog</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, perspiciatis!</p>
+            <h2 class="d-block">Chicken Blog</h2>
+            <p>welcome to our product and please see</p>
             <p><a href="#">View All Products <span class="icon-long-arrow-right"></span></a></p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div class="post-entry-1">
-              <a href="post-single.html"><img src="assets/frontend/wines/images/img_1.jpg" alt="Image" class="img-fluid"></a>
-              <h2><a href="blog-single.html">What You Need To Know About Premium Rosecco</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+              <a href="post-single.html"><img src="assets/frontend/wines/images/sultan.jpeg" alt="Image" class="img-fluid"></a>
+              <h2><a href="blog-single.html">What You Need To Know About chicken</a></h2>
+              <p>Chickens are animals or poultry. breathe with lungs, cannot fly, has a beak, has 2 legs whose function is to scavenge the ground in order to find food.
+
+</p>
               <div class="post-meta">
-                <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                <span class="d-block"><a href="#">Mianptmh</a> in <a href="#">News</a></span>
               </div>
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div class="post-entry-1">
-              <a href="post-single.html"><img src="assets/frontend/wines/images/img_2.jpg" alt="Image" class="img-fluid"></a>
-              <h2><a href="blog-single.html">What You Need To Know About Premium Rosecco</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+              <a href="post-single.html"><img src="assets/frontend/wines/images/kampung.jpeg" alt="Image" class="img-fluid"></a>
+              <h2><a href="blog-single.html">What You Need To Know About chicken</a></h2>
+              <p>Chickens are animals or poultry. breathe with lungs, cannot fly, has a beak, has 2 legs whose function is to scavenge the ground in order to find food.
+
+</p>
               <div class="post-meta">
-                <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                <span class="d-block"><a href="#">Mianptmh</a> in <a href="#">News</a></span>
               </div>
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div class="post-entry-1">
-              <a href="post-single.html"><img src="assets/frontend/wines/images/img_3.jpg" alt="Image" class="img-fluid"></a>
-              <h2><a href="blog-single.html">What You Need To Know About Premium Rosecco</a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+              <a href="post-single.html"><img src="assets/frontend/wines/images/arab.jpeg" alt="Image" class="img-fluid"></a>
+              <h2><a href="blog-single.html">What You Need To Know About chicken</a></h2>
+              <p>Chickens are animals or poultry. breathe with lungs, cannot fly, has a beak, has 2 legs whose function is to scavenge the ground in order to find food.
+
+</p>
               <div class="post-meta">
-                <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                <span class="d-block"><a href="#">Mianptmh</a> in <a href="#">News</a></span>
               </div>
             </div>
           </div>
