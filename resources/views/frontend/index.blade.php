@@ -113,9 +113,8 @@
 
         <div class="row mb-5">
           <div class="col-12 section-title text-center mb-5">
-            <h2 class="d-block"></h2>Products</h2>
-            <p>welcome to our product and please see</p>
-            <p><a href="#">View All Products <span class="icon-long-arrow-right"></span></a></p>
+            <h2 class="d-block"></h2>Produk</h2>
+            <p>Selamat datang di produk kami dan silakan lihat</p>
           </div>
         </div>
         <div class="row">
@@ -144,7 +143,7 @@
                   <span class="icon-star-o"></span>
                 </div>
 
-                <a href="#" class="btn add"><span class="icon-shopping-bag mr-3"></span> Add to Cart</a>
+                <a href="#" class="btn add"><span class="icon-shopping-bag mr-3"></span> Masukkan ke keranjang</a>
               </div>
             </div>
 
@@ -171,7 +170,7 @@
                   <span class="icon-star-o"></span>
                 </div>
 
-                <a href="#" class="btn add"><span class="icon-shopping-bag mr-3"></span> Add to Cart</a>
+                <a href="#" class="btn add"><span class="icon-shopping-bag mr-3"></span> Masukkan ke keranjang</a>
               </div>
             </div>
           </div>
@@ -198,7 +197,7 @@
                   <span class="icon-star-o"></span>
                 </div>
 
-                <a href="#" class="btn add"><span class="icon-shopping-bag mr-3"></span> Add to Cart</a>
+                <a href="#" class="btn add"><span class="icon-shopping-bag mr-3"></span> Masukkan ke keranjang</a>
               </div>
             </div>
           </div>
@@ -213,7 +212,6 @@
      <div class="container">
         <div class="row justify-content-center text-center align-items-center">
           <div class="col-md-8">
-            <span class="sub-title">Welcome</span>
             <h2>Semoga Pesanan Anda Memuaskan</h2>
           </div>
         </div>
@@ -226,17 +224,14 @@
 
           <blockquote class="testimony">
             <img src="frontend/login/images/pelung.jpg" alt="Image">
-            <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya..&rdquo;</p>
             <p class="small text-primary">&mdash; Ayam Pelung</p>
           </blockquote>
           <blockquote class="testimony">
             <img src="frontend/login/images/kate.jpg" alt="Image">
-            <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya..&rdquo;</p>
             <p class="small text-primary">&mdash; Ayam Kate</p>
           </blockquote>
           <blockquote class="testimony">
             <img src="frontend/login/images/balenggek.jpg" alt="Image">
-            <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya..&rdquo;</p>
             <p class="small text-primary">&mdash; Ayam Balenggek</p>
           </blockquote>
 
@@ -249,45 +244,41 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 section-title text-center mb-5">
-            <h2 class="d-block">chicken Definition</h2>
-            <p>welcome to our product and please see</p>
-            <p><a href="#">View All Products <span class="icon-long-arrow-right"></span></a></p>
+            <h2 class="d-block">Definisi</h2>
+            <p>Selamat datang di produk kami dan silakan lihat</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div class="post-entry-1">
               <a href="post-single.html"><img src="frontend/login/images/sultan.jpeg" alt="Image" class="img-fluid"></a>
-              <h2><a href="blog-single.html">What You Need To Know About chicken</a></h2>
-              <p>Chickens are animals or poultry. breathe with lungs, cannot fly, has a beak, has 2 legs whose function is to scavenge the ground in order to find food.
-
+              <h2><a href="blog-single.html">Yang Perlu Anda Ketahui Tentang Ayam</a></h2>
+              <p>Ayam adalah binatang atau unggas. bernafas dengan paru-paru, tidak bisa terbang, memiliki paruh, memiliki 2 kaki yang fungsinya untuk mengais tanah agar dapat menemukan makanan.
 </p>
               <div class="post-meta">
-                <span class="d-block"><a href="#">Mianptmh</a> in <a href="#">News</a></span>
+                <span class="d-block"><a href="#">Mianptmh</a></span>
               </div>
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div class="post-entry-1">
               <a href="post-single.html"><img src="frontend/login/images/kampung.jpeg" alt="Image" class="img-fluid"></a>
-              <h2><a href="blog-single.html">What You Need To Know About chicken</a></h2>
-              <p>Chickens are animals or poultry. breathe with lungs, cannot fly, has a beak, has 2 legs whose function is to scavenge the ground in order to find food.
-
+              <h2><a href="blog-single.html">Yang Perlu Anda Ketahui Tentang Ayam</a></h2>
+              <p>Ayam adalah binatang atau unggas. bernafas dengan paru-paru, tidak bisa terbang, memiliki paruh, memiliki 2 kaki yang fungsinya untuk mengais tanah agar dapat menemukan makanan.
 </p>
               <div class="post-meta">
-                <span class="d-block"><a href="#">Mianptmh</a> in <a href="#">News</a></span>
+                <span class="d-block"><a href="#">Mianptmh</a></span>
               </div>
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0 col-md-6">
             <div class="post-entry-1">
               <a href="post-single.html"><img src="frontend/login/images/arab.jpeg" alt="Image" class="img-fluid"></a>
-              <h2><a href="blog-single.html">What You Need To Know About chicken</a></h2>
-              <p>Chickens are animals or poultry. breathe with lungs, cannot fly, has a beak, has 2 legs whose function is to scavenge the ground in order to find food.
-
+              <h2><a href="blog-single.html">Yang Perlu Anda Ketahui Tentang Ayam</a></h2>
+              <p>Ayam adalah binatang atau unggas. bernafas dengan paru-paru, tidak bisa terbang, memiliki paruh, memiliki 2 kaki yang fungsinya untuk mengais tanah agar dapat menemukan makanan.
 </p>
               <div class="post-meta">
-                <span class="d-block"><a href="#">Mianptmh</a> in <a href="#">News</a></span>
+                <span class="d-block"><a href="#">Mianptmh</a></span>
               </div>
             </div>
           </div>

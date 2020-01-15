@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Wines &mdash; Website Template by Colorlib</title>
+  <title>Mianptmh &mdash; Website Template by Colorlib</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -46,6 +46,17 @@
     </div>
 </div>
 
+<div class="header-top">
+        <div class="container">
+          <div class="row align-items-center">
+                  <div class="col-md-8">
+                      <h1>AYAMKU</h1>
+                  </div>
+            <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                  class="icon-menu h3"></span></a>
+          </div>
+        </div>
+
       <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
 
       <div class="container">
@@ -55,10 +66,10 @@
             <nav class="site-navigation position-relative text-left" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-lg-block border-none">
                 <li class="active"><a href="index.html" class="nav-link text-left">Home</a></li>
-                <li><a href="about.html" class="nav-link text-left">About</a></li>
-                <li><a href="shop.html" class="nav-link text-left">Wines</a></li>
-                <li><a href="shop.html" class="nav-link text-left">Shop</a></li>
-                <li><a href="contact.html" class="nav-link text-left">Contact</a></li>
+                <li><a href="./about" class="nav-link text-left">About</a></li>
+                <li><a href="./ayamku" class="nav-link text-left">Ayamku</a></li>
+                <li><a href="./shop" class="nav-link text-left">Shop</a></li>
+                <li><a href="./contact" class="nav-link text-left">Contact</a></li>
               </ul>
             </nav>
 
@@ -82,7 +93,7 @@
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-7 section-title text-center mb-5">
-            <h2 class="d-block">Cart</h2>
+            <h2 class="d-block">Keranjang</h2>
           </div>
         </div>
         <div class="row mb-5">
@@ -91,23 +102,22 @@
               <table class="table table-bordered">
                 <thead>
                   <tr>
-                    <th class="product-thumbnail">Image</th>
-                    <th class="product-name">Product</th>
-                    <th class="product-price">Price</th>
-                    <th class="product-quantity">Quantity</th>
+                    <th class="product-thumbnail">Foto</th>
+                    <th class="product-name">Produk</th>
+                    <th class="product-price">Harga</th>
+                    <th class="product-quantity">Kuantitas</th>
                     <th class="product-total">Total</th>
-                    <th class="product-remove">Remove</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td class="product-thumbnail">
-                      <img src="frontend/login/images/wine_1.png" alt="Image" class="img-fluid">
+                      <img src="frontend/login/images/2.jpg" alt="Image" class="img-fluid">
                     </td>
                     <td class="product-name">
-                      <h2 class="h5 cart-product-title text-black">Trius Cabernet France 2011</h2>
+                      <h2 class="h5 cart-product-title text-black">Trius Cabernet France 2020</h2>
                     </td>
-                    <td>$55.00</td>
+                    <td>Rp.400.0000</td>
                     <td>
                       <div class="input-group mb-3" style="max-width: 120px;">
                         <div class="input-group-prepend">
@@ -121,18 +131,17 @@
                       </div>
 
                     </td>
-                    <td>$49.00</td>
-                    <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                    <td>Rp.200.000</td>
                   </tr>
 
                   <tr>
                     <td class="product-thumbnail">
-                      <img src="frontend/login/images/wine_2.png" alt="Image" class="img-fluid">
+                      <img src="frontend/login/images/1.jpg" alt="Image" class="img-fluid">
                     </td>
                     <td class="product-name">
-                      <h2 class="h5 cart-product-title text-black">Trius Cabernet France 2011</h2>
+                      <h2 class="h5 cart-product-title text-black">Trius Cabernet France 2020</h2>
                     </td>
-                    <td>$49.00</td>
+                    <td>Rp.400.000</td>
                     <td>
                       <div class="input-group mb-3" style="max-width: 120px;">
                         <div class="input-group-prepend">
@@ -146,8 +155,7 @@
                       </div>
 
                     </td>
-                    <td>$49.00</td>
-                    <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                    <td>Rp.200.000</td>
                   </tr>
                 </tbody>
               </table>
@@ -158,37 +166,12 @@
       </div>
     </div>
 
-    <div class="site-section pt-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row mb-5">
-              <div class="col-md-6 mb-3 mb-md-0">
-                <button class="btn btn-primary btn-md btn-block">Update Cart</button>
-              </div>
-              <div class="col-md-6">
-                <button class="btn btn-outline-primary btn-md btn-block">Continue Shopping</button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <label class="text-black h4" for="coupon">Coupon</label>
-                <p>Enter your coupon code if you have one.</p>
-              </div>
-              <div class="col-md-8 mb-3 mb-md-0">
-                <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
-              </div>
-              <div class="col-md-4">
-                <button class="btn btn-primary btn-md px-4">Apply Coupon</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 pl-5">
+              <div class="col-md-6 pl-5">
             <div class="row justify-content-end">
               <div class="col-md-7">
                 <div class="row">
                   <div class="col-md-12 text-right border-bottom mb-5">
-                    <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                    <h3 class="text-black h4 text-uppercase"></h3>Total</h3>
                   </div>
                 </div>
                 <div class="row mb-3">
@@ -196,7 +179,7 @@
                     <span class="text-black">Subtotal</span>
                   </div>
                   <div class="col-md-6 text-right">
-                    <strong class="text-black">$230.00</strong>
+                    <strong class="text-black">Rp.200.000</strong>
                   </div>
                 </div>
                 <div class="row mb-5">
@@ -204,14 +187,13 @@
                     <span class="text-black">Total</span>
                   </div>
                   <div class="col-md-6 text-right">
-                    <strong class="text-black">$230.00</strong>
+                    <strong class="text-black">Rp.200.000</strong>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-md-12">
-                    <button class="btn btn-primary btn-lg btn-block" onclick="window.location='checkout.html'">Proceed To
-                      Checkout</button>
+                    <button class="btn btn-primary btn-lg btn-block" onclick="window.location='./checkout'">ditetapkan untuk checkout</button>
                   </div>
                 </div>
               </div>

@@ -97,7 +97,7 @@
 
         <div class="row mb-5">
           <div class="col-12 section-title text-center mb-5">
-            <h2 class="d-block">Our Products</h2>
+            <h2 class="d-block">Produk kita</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, perspiciatis!</p>
           </div>
         </div>
@@ -361,34 +361,20 @@
       </div>
     </div>
 
-    <div class="hero-2" style="background-image: url('images/hero_2.jpg');">
-     <div class="container">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <span class="sub-title">Welcome</span>
-            <h2>Chicken For Everyone</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="site-section bg-light">
         <div class="container">
           <div class="owl-carousel owl-slide-3 owl-slide">
 
             <blockquote class="testimony">
               <img src="frontend/login/images/pelung.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
               <p class="small text-primary">&mdash; Ayam Pelung</p>
             </blockquote>
             <blockquote class="testimony">
               <img src="frontend/login/images/kate.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
               <p class="small text-primary">&mdash; Ayam Kate</p>
             </blockquote>
             <blockquote class="testimony">
               <img src="frontend/login/images/balenggek.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
               <p class="small text-primary">&mdash; Ayam Balenggek</p>
             </blockquote>
 
@@ -399,36 +385,35 @@
 
 
 
-    <div class="footer">
-      <div class="container">
+      <div class="footer">
+            <div class="container">
 
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="social-icons">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-youtube"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
+              <div class="row">
+                <div class="col-12 text-center">
+                  <div class="social-icons">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                    <a href="#"><span class="icon-twitter"></span></a>
+                    <a href="#"><span class="icon-youtube"></span></a>
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="copyright">
+                      <p>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          </p>
+
+
+
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="copyright">
-                <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
   </div>
   <!-- .site-wrap -->

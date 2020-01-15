@@ -110,45 +110,34 @@
               </div>
 
             </div>
-            <p><a href="cart.html" class="buy-now btn btn-sm height-auto px-4 py-3 btn-primary">Add To Cart</a></p>
+            <p><a href="./cart" class="buy-now btn btn-sm height-auto px-4 py-3 btn-primary">Add To Cart</a></p>
 
 
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero-2" style="background-image: url('images/hero_2.jpg');">
-     <div class="container">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <span class="sub-title">Welcome</span>
           </div>
         </div>
       </div>
     </div>
 
     <div class="site-section bg-light">
-        <div class="container">
-          <div class="owl-carousel owl-slide-3 owl-slide">
+            <div class="container">
+              <div class="owl-carousel owl-slide-3 owl-slide">
 
-            <blockquote class="testimony">
-              <img src="frontend/login/images/pelung.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
-            </blockquote>
-            <blockquote class="testimony">
-              <img src="frontend/login/images/kate.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
-            </blockquote>
-            <blockquote class="testimony">
-              <img src="frontend/login/images/balenggek.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
-            </blockquote>
+                <blockquote class="testimony">
+                  <img src="frontend/login/images/pelung.jpg" alt="Image">
+                  <p class="small text-primary">&mdash; Ayam Pelung</p>
+                </blockquote>
+                <blockquote class="testimony">
+                  <img src="frontend/login/images/kate.jpg" alt="Image">
+                  <p class="small text-primary">&mdash; Ayam Kate</p>
+                </blockquote>
+                <blockquote class="testimony">
+                  <img src="frontend/login/images/balenggek.jpg" alt="Image">
+                  <p class="small text-primary">&mdash; Ayam Balenggek</p>
+                </blockquote>
 
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
 
 
     <div class="footer">

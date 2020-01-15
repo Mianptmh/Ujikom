@@ -39,6 +39,22 @@ Route::get('/cart', function () {
     return view('frontend.cart');
 });
 
+Route::get('/login', function () {
+    return view('frontend.login');
+});
+
+Route::get('/reg', function () {
+    return view('frontend.register');
+});
+
+Route::get('/checkout', function () {
+    return view('frontend.checkout');
+});
+
+Route::get('/thankyou', function () {
+    return view('frontend.thankyou');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

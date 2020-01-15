@@ -83,21 +83,6 @@
 
     </div>
 
-
-
-
-    <div class="hero-2" style="background-image: url('images/ayam4.jpeg');">
-     <div class="container">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <span class="sub-title">Welcome</span>
-            <h2>About Us</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
     <div class="site-section py-5 custom-border-bottom" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
@@ -114,7 +99,7 @@
 
 
             <div class="site-section-heading pt-3 mb-4">
-              <h2 class="text-black font-heading-serif">How We Started</h2>
+              <h2 class="text-black font-heading-serif">Bagaimana Kami Memulai</h2>
             </div>
             <p>Rerum quis soluta, esse, cupiditate voluptate ipsum? Sunt unde eos vitae suscipit harum eligendi reprehenderit, illo eaque sit!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus consequuntur hic quaerat cupiditate tempore temporibus nulla at eum!</p>
@@ -161,7 +146,7 @@
               <span class="icon-truck text-primary"></span>
             </div>
             <div class="text">
-              <h2 class="font-heading-serif">Free Shipping</h2>
+              <h2 class="font-heading-serif">Bebas biaya kirim</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
                 tincidunt fringilla.</p>
             </div>
@@ -171,7 +156,7 @@
               <span class="icon-refresh2 text-primary"></span>
             </div>
             <div class="text">
-              <h2 class="font-heading-serif">Free Returns</h2>
+              <h2 class="font-heading-serif">Pengembalian gratis</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
                 tincidunt fringilla.</p>
             </div>
@@ -181,7 +166,7 @@
               <span class="icon-help text-primary"></span>
             </div>
             <div class="text">
-              <h2 class="font-heading-serif">Customer Support</h2>
+              <h2 class="font-heading-serif">Dukungan Pelanggan</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan
                 tincidunt fringilla.</p>
             </div>
@@ -196,17 +181,14 @@
 
             <blockquote class="testimony">
               <img src="frontend/login/images/pelung.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
               <p class="small text-primary">&mdash; Ayam Pelung</p>
             </blockquote>
             <blockquote class="testimony">
               <img src="frontend/login/images/kate.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
               <p class="small text-primary">&mdash; Ayam Kate</p>
             </blockquote>
             <blockquote class="testimony">
               <img src="frontend/login/images/balenggek.jpg" alt="Image">
-              <p>&ldquo;Setelah itu, klik untuk Anda lihat, dan Anda Dapat Menemukannya.&rdquo;</p>
               <p class="small text-primary">&mdash; Ayam Balenggek</p>
             </blockquote>
 
@@ -217,35 +199,35 @@
 
 
 
-    <div class="footer">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="social-icons">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-youtube"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
+
+
+      <div class="footer">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-12 text-center">
+                  <div class="social-icons">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                    <a href="#"><span class="icon-twitter"></span></a>
+                    <a href="#"><span class="icon-youtube"></span></a>
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="copyright">
+                      <p>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="copyright">
-                <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
   </div>
