@@ -175,33 +175,6 @@
       </div>
     </div>
 
-    <div class="site-section bg-light">
-        <div class="container">
-          <div class="owl-carousel owl-slide-3 owl-slide">
-
-            <blockquote class="testimony">
-              <img src="frontend/login/images/pelung.jpg" alt="Image">
-              <p class="small text-primary">&mdash; Ayam Pelung</p>
-            </blockquote>
-            <blockquote class="testimony">
-              <img src="frontend/login/images/kate.jpg" alt="Image">
-              <p class="small text-primary">&mdash; Ayam Kate</p>
-            </blockquote>
-            <blockquote class="testimony">
-              <img src="frontend/login/images/balenggek.jpg" alt="Image">
-              <p class="small text-primary">&mdash; Ayam Balenggek</p>
-            </blockquote>
-
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
       <div class="footer">
             <div class="container">
 

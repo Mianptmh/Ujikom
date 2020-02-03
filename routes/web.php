@@ -58,3 +58,6 @@ Route::get('/thankyou', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['prefix' => 'backend', 'middleware' => ['auth','role:admin']], function () {
+route::resource('barang','barangController');
+});
