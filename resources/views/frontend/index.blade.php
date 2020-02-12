@@ -34,32 +34,28 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  <div class="site-wrap">
+        <div class="site-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-
-    <div class="header-top">
-      <div class="container">
-        <div class="row align-items-center">
-                <div class="col-md-8">
-                    <h1>AYAMKU</h1>
-                </div>
-          <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                class="icon-menu h3"></span></a>
-        </div>
+          <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 wines/js-menu-toggle"></span>
+              </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+          </div>
       </div>
 
-
-
+      <div class="header-top">
+          <div class="container">
+            <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1>AyamShop</h1>
+                    </div>
+              <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                    class="icon-menu h3"></span></a>
+            </div>
+          </div>
 
       <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
 
@@ -71,7 +67,7 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-lg-block border-none">
                 <li class="active"><a href="./index" class="nav-link text-left">Home</a></li>
                 <li><a href="./about" class="nav-link text-left">About</a></li>
-                <li><a href="./ayamku" class="nav-link text-left">Ayamku</a></li>
+                <li><a href="./ayamku" class="nav-link text-left">AyamShop</a></li>
                 <li><a href="./shop" class="nav-link text-left">Shop</a></li>
                 <li><a href="./contact" class="nav-link text-left">Contact</a></li>
               </ul>
@@ -91,15 +87,7 @@
       <div class="intro-section container" style="background-image: url('frontend/login/images/lucu.jpg');">
         <div class="row justify-content-center text-center align-items-center">
           <div class="col-md-8">
-            <h1>Jual Beli</h1>
-          </div>
-        </div>
-      </div>
-
-      <div class="intro-section container" style="background-image: url('frontend/login/images/lucu.jpg');">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-              <h1>Selamat Datang Di Toko Ayamku</h1>
+            <h1>Selamat Datang Di AyamShop</h1>
           </div>
         </div>
       </div>
@@ -125,14 +113,14 @@
               <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="frontend/login/images/brahma.jpg" alt="Image" class="img-fluid"></a>
               <div>
                 <h3 class="heading mb-1"><a href="#">Ayam Brahma</a></h3>
-                <span class="price">Rp.4.000.000</span>
+                <span class="price">Rp 2.000.000</span>
               </div>
 
 
               <div class="wine-actions">
 
                 <h3 class="heading-2"><a href="#">Ayam Brahma</a></h3>
-                <span class="price d-block"><del>Rp.10.000.0000</del> Rp.4.000.000</span>
+                <span class="price d-block"><del>Rp 2.000.0000</del> Rp 900.000</span>
 
 
                 <div class="rating">
@@ -154,13 +142,13 @@
               <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="frontend/login/images/ayamketawa.jpg" alt="Image" class="img-fluid"></a>
               <div>
                 <h3 class="heading mb-1"><a href="#">Ayam Ketawa</a></h3>
-                <span class="price">Rp.4.000.000</span>
+                <span class="price">Rp 2.000.000</span>
               </div>
 
               <div class="wine-actions">
 
                 <h3 class="heading-2"><a href="#">Ayam Ketawa</a></h3>
-                <span class="price d-block"><del>Rp.10.000.0000</del> Rp.4.000.000</span>
+                <span class="price d-block"><del>Rp 2.000.0000</del> Rp.4.000.000</span>
 
                 <div class="rating">
                   <span class="icon-star"></span>
@@ -180,14 +168,14 @@
               <a href="shop-single.html" class="thumbnail d-block mb-4"><img src="frontend/login/images/cemani.jpg" alt="Image" class="img-fluid"></a>
               <div>
                 <h3 class="heading mb-1"><a href="#">Ayam Cemani</a></h3>
-                <span class="price">Rp.4.000.000</span>
+                <span class="price">Rp 2.000.000</span>
               </div>
 
 
               <div class="wine-actions">
 
                 <h3 class="heading-2"><a href="#">Ayam Cemani</a></h3>
-                <span class="price d-block"><del>Rp.10.000.0000</del> Rp.4.000.000</span>
+                <span class="price d-block"><del>Rp 2.000.0000</del> Rp.4.000.000</span>
 
                 <div class="rating">
                   <span class="icon-star"></span>
@@ -201,23 +189,9 @@
               </div>
             </div>
           </div>
-
-
-
         </div>
       </div>
     </div>
-
-    <div class="hero-2" style="background-image: url('assets/frontend/wines/images/ungu.jpeg');">
-     <div class="container">
-        <div class="row justify-content-center text-center align-items-center">
-          <div class="col-md-8">
-            <h2>Semoga Pesanan Anda Memuaskan</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <div class="site-section bg-light">
       <div class="container">

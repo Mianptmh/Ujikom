@@ -34,28 +34,28 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  <div class="site-wrap">
+        <div class="site-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-</div>
-
-<div class="header-top">
-    <div class="container">
-      <div class="row align-items-center">
-              <div class="col-md-8">
-                  <h1>AYAMKU</h1>
+          <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 wines/js-menu-toggle"></span>
               </div>
-        <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-              class="icon-menu h3"></span></a>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+          </div>
       </div>
-    </div>
+
+      <div class="header-top">
+          <div class="container">
+            <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1>AyamShop</h1>
+                    </div>
+              <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                    class="icon-menu h3"></span></a>
+            </div>
+          </div>
 
 
       <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
@@ -68,7 +68,7 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-lg-block border-none">
                 <li><a href="./index" class="nav-link text-left">Home</a></li>
                 <li><a href="./about" class="nav-link text-left">About</a></li>
-                <li><a href="./ayamku" class="nav-link text-left">Ayamku</a></li>
+                <li><a href="./ayamku" class="nav-link text-left">AyamShop</a></li>
                 <li><a href="./shop" class="nav-link text-left">Shop</a></li>
                 <li class="active"><a href="contact.html" class="nav-link text-left">Contact</a></li>
               </ul>
@@ -89,17 +89,17 @@
 
           <div class="col-lg-12">
             <div class="section-title mb-5">
-              <h2>Hubungi kami</h2>
+              <h2>Silahkan</h2>
             </div>
             <form method="post">
 
                   <div class="row">
                       <div class="col-md-6 form-group">
-                          <label for="fname">Nama depan</label>
+                          <label for="fname">Nama Lengkap</label>
                           <input type="text" id="fname" class="form-control form-control-lg">
                       </div>
                       <div class="col-md-6 form-group">
-                          <label for="lname">Nama keluarga</label>
+                          <label for="lname">Alamat</label>
                           <input type="text" id="lname" class="form-control form-control-lg">
                       </div>
                   </div>
@@ -109,7 +109,7 @@
                           <input type="text" id="eaddress" class="form-control form-control-lg">
                       </div>
                       <div class="col-md-6 form-group">
-                          <label for="tel">Telp. Jumlah</label>
+                          <label for="tel">No Telp</label>
                           <input type="text" id="tel" class="form-control form-control-lg">
                       </div>
                   </div>

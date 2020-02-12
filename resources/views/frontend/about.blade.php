@@ -34,28 +34,28 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  <div class="site-wrap">
+        <div class="site-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-</div>
-
-<div class="header-top">
-    <div class="container">
-      <div class="row align-items-center">
-              <div class="col-md-8">
-                  <h1>AYAMKU</h1>
+          <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 wines/js-menu-toggle"></span>
               </div>
-        <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-              class="icon-menu h3"></span></a>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+          </div>
       </div>
-    </div>
+
+      <div class="header-top">
+          <div class="container">
+            <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1>AyamShop</h1>
+                    </div>
+              <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                    class="icon-menu h3"></span></a>
+            </div>
+          </div>
 
 
       <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
@@ -68,7 +68,7 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-lg-block border-none">
                 <li><a href="./index" class="nav-link text-left">Home</a></li>
                 <li class="active"><a href="about.html" class="nav-link text-left">About</a></li>
-                <li><a href="./ayamku" class="nav-link text-left">Ayamku</a></li>
+                <li><a href="./ayamku" class="nav-link text-left">AyamShop</a></li>
                 <li><a href="./shop" class="nav-link text-left">Shop</a></li>
                 <li><a href="./contact" class="nav-link text-left">Contact</a></li>
               </ul>
@@ -89,20 +89,28 @@
           <div class="col-md-6">
             <div class="block-16">
               <figure>
-                <img src="frontend/login/images/ayam3.jpeg" alt="Image placeholder" class="img-fluid">
+                <img src="frontend/login/images/ish.jpg" alt="Image placeholder" class="img-fluid">
 
               </figure>
             </div>
+
           </div>
           <div class="col-md-1"></div>
-          <div class="col-md-5">
+          <div class="col-md-4">
 
 
-            <div class="site-section-heading pt-3 mb-4">
-              <h2 class="text-black font-heading-serif">Bagaimana Kami Memulai</h2>
+            <div class="site-section-heading pt-3 mb-2">
+              <h2 class="text-black font-heading-serif">Macam - Macam ayam</h2>
             </div>
-            <p>Rerum quis soluta, esse, cupiditate voluptate ipsum? Sunt unde eos vitae suscipit harum eligendi reprehenderit, illo eaque sit!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus consequuntur hic quaerat cupiditate tempore temporibus nulla at eum!</p>
+            <p>Macam-macamnya
+                    Karena ayam termasuk unggas peliharaan populer dan murah, muncul berbagai istilah teknis akibat kegiatan penangkaran dan peternakan ayam.</p>
+                    Menurut fungsinya, orang mengenal
+
+                        ayam pedaging atau ayam potong (broiler), untuk dimanfaatkan dagingnya; <br>
+                        ayam petelur (layer), untuk dimanfaatkan telurnya;<br>
+                        ayam hias atau ayam timangan (pet, klangenan), untuk dilepas di kebun/taman atau dipelihara dalam kurungan karena kecantikan penampilan atau suaranya (misalnya ayam katai dan ayam pelung; ayam bekisar dapat pula digolongkan ke sini meskipun bukan ayam peliharaan sejati);<br>
+                        ayam sabung, untuk dijadikan permainan sabung ayam.</p>
+
 
           </div>
         </div>
@@ -117,7 +125,7 @@
           <div class="col-md-6 order-md-2">
             <div class="block-16">
               <figure>
-                <img src="frontend/login/images/ayamku.jpg" alt="Image placeholder" class="img-fluid ">
+                <img src="frontend/login/images/yu.jpg" alt="Image placeholder" class="img-fluid ">
                 <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo" data-fancybox><span
                     class="icon-play"></span></a>
 
@@ -128,10 +136,9 @@
 
 
             <div class="site-section-heading pt-3 mb-4">
-              <h2 class="text-black font-heading-serif">Ayamku</h2>
+              <h2 class="text-black font-heading-serif">AyamShop</h2>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus consequuntur hic quaerat cupiditate tempore temporibus nulla at eum!</p>
-            <p>Magni debitis minima ipsam, itaque nam eligendi iusto? Adipisci blanditiis itaque ipsam cupiditate architecto, dolore saepe placeat culpa.</p>
+            <p>Ayam menunjukkan perbedaan morfologi di antara kedua tipe kelamin (dimorfisme seksual). Ayam jantan (jago, rooster) lebih atraktif, berukuran lebih besar, memiliki jalu panjang, berjengger lebih besar, dan bulu ekornya panjang menjuntai. Ayam betina (babon, hen) relatif kecil, berukuran kecil, jalu pendek atau nyaris tidak kelihatan, berjengger kecil, dan bulu ekor pendek. Perkelaminan ini diatur oleh sistem hormon. Apabila terjadi gangguan pada fungsi fisiologi tubuhnya, ayam betina dapat berganti kelamin menjadi jantan karena ayam dewasa masih memiliki ovotestis yang dorman dan sewaktu-waktu dapat aktif. </p>
 
           </div>
         </div>
@@ -175,7 +182,7 @@
       </div>
     </div>
 
-      <div class="footer">
+    <div class="footer">
             <div class="container">
 
               <div class="row">
@@ -196,6 +203,9 @@
                           Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
                           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                           </p>
+
+
+
                   </div>
                 </div>
               </div>
@@ -203,7 +213,7 @@
           </div>
 
 
-  </div>
+        </div>
   <!-- .site-wrap -->
 
 

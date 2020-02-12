@@ -34,27 +34,28 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  <div class="site-wrap">
+        <div class="site-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-    <div class="header-top">
-            <div class="container">
-              <div class="row align-items-center">
-                      <div class="col-md-8">
-                          <h1>AYAMKU</h1>
-                      </div>
-                <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                      class="icon-menu h3"></span></a>
+          <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 wines/js-menu-toggle"></span>
               </div>
             </div>
+            <div class="site-mobile-menu-body"></div>
+          </div>
+      </div>
+
+      <div class="header-top">
+          <div class="container">
+            <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1>AyamShop</h1>
+                    </div>
+              <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                    class="icon-menu h3"></span></a>
+            </div>
+          </div>
 
       <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
 
@@ -101,36 +102,34 @@
 
 
     <div class="footer">
-      <div class="container">
+            <div class="container">
 
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="social-icons">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-youtube"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
+              <div class="row">
+                <div class="col-12 text-center">
+                  <div class="social-icons">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                    <a href="#"><span class="icon-twitter"></span></a>
+                    <a href="#"><span class="icon-youtube"></span></a>
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="copyright">
+                      <p>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                          </p>
+
+
+
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="copyright">
-                <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
   </div>
   <!-- .site-wrap -->
 

@@ -50,14 +50,31 @@ Route::get('/reg', function () {
 Route::get('/checkout', function () {
     return view('frontend.checkout');
 });
+Route::get('/option', function () {
+    return view('admin.index');
+});
 
 Route::get('/thankyou', function () {
     return view('frontend.thankyou');
 });
 
+Route::get('register', function () {
+    return view('auth.register');
+});
+
+Route::get('login', function () {
+    return view('auth.login');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::group(['prefix' => 'backend', 'middleware' => ['auth','role:admin']], function () {
-route::resource('barang','barangController');
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix'=>'admin','middleware'=>['auth']],function(){
+    route::resource('barang','barangController');
+    route::resource('pembeli','PembeliController');
+    route::resource('dataayam','DataayamController');
 });

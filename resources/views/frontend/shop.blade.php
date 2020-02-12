@@ -34,29 +34,28 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  <div class="site-wrap">
+        <div class="site-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-
-    <div class="header-top">
-        <div class="container">
-          <div class="row align-items-center">
-                  <div class="col-md-8">
-                      <h1>AYAMKU</h1>
-                  </div>
-            <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                  class="icon-menu h3"></span></a>
+          <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 wines/js-menu-toggle"></span>
+              </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
           </div>
-        </div>
+      </div>
+
+      <div class="header-top">
+          <div class="container">
+            <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h1>AyamShop</h1>
+                    </div>
+              <a href="#" class="mx-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                    class="icon-menu h3"></span></a>
+            </div>
+          </div>
 
 
 
@@ -71,7 +70,7 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none pl-0 d-lg-block border-none">
                 <li><a href="./index" class="nav-link text-left">Home</a></li>
                 <li><a href="./about" class="nav-link text-left">About</a></li>
-                <li><a href="./ayamku" class="nav-link text-left">Ayamku</a></li>
+                <li><a href="./ayamku" class="nav-link text-left">AyamShop</a></li>
                 <li class="active"><a href="./shop" class="nav-link text-left">Shop</a></li>
                 <li><a href="./contact" class="nav-link text-left">Contact</a></li>
               </ul>
@@ -97,7 +96,7 @@
 
         <div class="row mb-5">
           <div class="col-12 section-title text-center mb-5">
-            <h2 class="d-block">Produk kita</h2>
+            <h2 class="d-block">Produk</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, perspiciatis!</p>
           </div>
         </div>
