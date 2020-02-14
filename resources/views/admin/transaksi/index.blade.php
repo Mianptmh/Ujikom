@@ -5,32 +5,36 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Data Ayam</div>
+                <div class="card-header">Data Distributor</div>
 
                 <center>
                     <br>
-                    <a href="{{ route('dataayam.create') }}" class="btn btn-primary">Tambah</a>
+                    <a href="{{ route('transaksi.create') }}" class="btn btn-primary">Tambah</a>
                 </center>
                 <div class="table-responsive">
                     <br>
                     <table class="table"3 >
                         <tr>
-                            <th>No</th>
-                            <th>Jenis</th>
+                            <th>Nama Pembeli</th>
+                            <th>Jenis Hewan</th>
                             <th>Berat</th>
-                            <th>Gambar</th>
+                            <th>Jumlah Ayam</th>
+                            <th>Alamat</th>
+                            <th>Harga Total</th>
                             <th colspan="3" style="text-align:center;">Action</th>
                         </tr>
                         @php $no = 1; @endphp
-                        @foreach ($dataayam as $data)
+                        @foreach ($transaksi as $data)
                             <tr>
-                                <td>{{ $no++ }}</td>
-                                <td>{{ $data->jenis_ayam }}</td>
-                                <td>{{ $data->berat}}</td>
-                                <td><img src="{{ asset('assets/img/fotoayam/'.$data->gambar) }}" alt="" height="100px" width="100px"></td>
-                                <td><a href="{{ route('dataayam.edit', $data->id) }}" class="btn btn sm btn-success">Edit</a></td>
+                                <td>{{$data->pembeli->nama_pembeli}}</td>
+                                <td>{{$data->dataayam->jenis_ayam}}</td>
+                                <td>{{$data->dataayam->berat}}</td>
+                                <td>{{ $data->jumlah_ayam }}</td>
+                                <td>{{ $data->pembeli->alamat}}</td>
+                                <td>{{ $data->harga_total}}</td>
+                                <td><a href="{{ route('transaksi.edit', $data->id) }}" class="btn btn sm btn-success">Edit</a></td>
                                 <td>
-                                    <form action="{{ route('dataayam.destroy', $data->id) }}" method="POST">
+                                    <form action="{{ route('transaksi.destroy', $data->id) }}" method="POST">
                                         @csrf
                                         <input type="hidden" name="_method" value="DELETE">
                                         <button class="btn btn sm btn-danger" type="submit">Hapus Data</button>

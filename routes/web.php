@@ -74,7 +74,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix'=>'admin','middleware'=>['auth']],function(){
-    route::resource('barang','barangController');
+    route::resource('transaksi','TransaksiController');
     route::resource('pembeli','PembeliController');
     route::resource('dataayam','DataayamController');
 });

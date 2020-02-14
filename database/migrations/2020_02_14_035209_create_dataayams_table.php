@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Dataayam extends Migration
+class CreateDataayamsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,12 +14,11 @@ class Dataayam extends Migration
     public function up()
     {
         Schema::create('dataayams', function (Blueprint $table) {
-        $table->bigIncrements('id');
-        $table->string('jenis');
-        $table->text('harga');
-        $table->bigInteger('berat');
-        $table->bigInteger('gambar');
-        $table->timestamps();
+            $table->bigIncrements('id');
+            $table->string('jenis_ayam');
+            $table->integer('berat');
+            $table->string('foto');
+            $table->timestamps();
         });
     }
 
@@ -30,6 +29,6 @@ class Dataayam extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dataayam');
+        Schema::dropIfExists('dataayams');
     }
 }

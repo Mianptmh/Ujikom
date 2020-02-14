@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Data Pembeli</div>
+                <div class="card-header">Data Distributor</div>
 
                 <center>
                     <br>
@@ -15,7 +15,6 @@
                     <br>
                     <table class="table"3 >
                         <tr>
-                            <th>No</th>
                             <th>Nama</th>
                             <th>Alamat</th>
                             <th>No Hp</th>
@@ -24,7 +23,6 @@
                         @php $no = 1; @endphp
                         @foreach ($pembeli as $data)
                             <tr>
-                                <td>{{ $no++ }}</td>
                                 <td>{{ $data->nama }}</td>
                                 <td>{{ $data->alamat}}</td>
                                 <td>{{ $data->no_hp}}</td>

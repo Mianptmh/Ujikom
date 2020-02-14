@@ -5,41 +5,26 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Tambah Data Data Ayam</div>
+                <div class="card-header">Tambah Data Ayam</div>
 
                 <div class="card-body">
-                <form action="{{ route('dataayam.store') }}" method="post">
+                <form action="{{ route('dataayam.store') }}" method="post" entype="multipart/form-data">
                     @csrf
                     <div class="form-group">
-                    <label for="">No</label>
-                    <input class="form-control" type="text" name="no">
-                </div>
-                <div class="form-group">
-                    <label for="">Jenis</label>
-                    <input class="form-control" type="text" name="jenis">
-                </div>
-                <div class="form-group">
-                        <label for="">Harga</label>
-                        <input class="form-control" type="text" name="harga">
+                        <label for="">Jenis Ayam</label>
+                        <input class="form-control" type="text" name="jenis_ayam">
                     </div>
                     <div class="form-group">
-                            <label for="">Berat</label>
+                            <label for="">Berat Ayam</label>
                             <input class="form-control" type="text" name="berat">
                         </div>
                         <div class="form-group">
-                            <label for="">Gambar</label>
-                            <input class="form-control
-                            @error('gambar') is-invalid @enderror" type="file"
-                            name="gambar" id="" required>
-                            @error('gambar')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{$message}}</strong>
-                            </span>
-                            @enderror
+                            <label for="">Foto</label>
+                            <input type="file" class="form-control" name="gambar">
                         </div>
                 <div class="form-group">
                    <button type="submit" class="btn btn-outline-info">Simpan Data</button>
-                    <a href="{{ route('dataayam.index') }}" class="btn btn-outline-info">Back</a>
+                    <a href="{{ route('dataayam.store') }}" class="btn btn-outline-info">Back</a>
                 </div>
                 </form>
                         </div>

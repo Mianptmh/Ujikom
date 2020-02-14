@@ -5,23 +5,19 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Tambah Data Pembelian</div>
+                <div class="card-header">Tambah Data Distributor</div>
 
                 <div class="card-body">
                 <form action="{{ route('pembeli.store') }}" method="post">
                     @csrf
-                    <div class="form-group">
-                    <label for="">No</label>
-                    <input class="form-control" type="text" name="no">
-                </div>
                 <div class="form-group">
                     <label for="">Nama</label>
                     <input class="form-control" type="text" name="nama">
                 </div>
                 <div class="form-group">
                         <label for="">Alamat</label>
-                        <input class="form-control" type="text" name="alamat">
-                    </div>
+                       <textarea name="alamat" id="alamat" cols="30" rows="5" class="form-control"></textarea>
+                </div>
                     <div class="form-group">
                             <label for="">No hp</label>
                             <input class="form-control" type="text" name="no_hp">

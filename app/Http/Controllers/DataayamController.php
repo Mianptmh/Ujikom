@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Dataayam;
-use App\Pembelian;
+use Illuminate\Support\Facades\FIle;
 
 class DataayamController extends Controller
 {
@@ -38,22 +38,18 @@ class DataayamController extends Controller
     public function store(Request $request)
     {
         $dataayam = new Dataayam();
-        $dataayam->jenis = $request->jenis;
-        $dataayam->harga = $request->harga;
+        $dataayam->jenis_ayam = $request->jenis_ayam;
         $dataayam->berat = $request->berat;
         // gambar
         if ($request->hasFile('gambar')) {
             $file = $request->file('gambar');
-            $path = public_path() .'/assets/img/dataayam';
-            $filename = Str::random(6) . '_'
-            . $file->getClientOriginalName();
-            $upload = $file->move(
-                $path,$filename
-            );
+            $destinationPath = public_path() . '/assets/img/fotoayam';
+            $filename = '_' . $file->getClientOriginalName();
+            $uploadSuccess = $file->move($destinationPath, $filename);
             $dataayam->gambar = $filename;
         }
         $dataayam->save();
-        return redirect()->route('Dataayam.index');
+        return redirect()->route('dataayam.index');
     }
 
     /**
@@ -89,13 +85,12 @@ class DataayamController extends Controller
     public function update(Request $request, $id)
     {
         $dataayam = Dataayam::findOrfail($id);
-        $dataayam->jenis = $request->jenis;
+        $dataayam->jenis_ayam = $request->jenis_ayam;
         $dataayam->harga = $request->harga;
-        $dataayam->berat = $request->berat;
         // gambar
         if ($request->hasFile('gambar')) {
             $file = $request->file('gambar');
-            $path = public_path() .'/assets/img/cerpen';
+            $path = public_path() .'/assets/img/fotoayam';
             $filename = Str::random(6) . '_'
             . $file->getClientOriginalName();
             $upload = $file->move(
