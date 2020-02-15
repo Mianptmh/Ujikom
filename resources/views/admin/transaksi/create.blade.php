@@ -11,12 +11,12 @@
                 <form action="{{ route('transaksi.store') }}" method="post">
                     @csrf
                     <div class="form-group">
-                        <label for="">Nama Pembeli</label>
+                        <label for="">Nama</label>
                         <select class="form-control
-                        @error('nama_pembeli') is-invalid @enderror" name="id_pembeli" id="" required>
+                        @error('nama') is-invalid @enderror" name="id_pembeli" id="" required>
                             @foreach ($pembeli as $data)
                                 <option value="{{$data->id}}">
-                                {{$data->nama_pembeli}}</option>
+                                {{$data->nama}}</option>
                             @endforeach
                         </select>
                         @error('pembeli')
@@ -98,10 +98,10 @@
                                         </span>
                                         @enderror
                                     </div>
-                <div class="form-group">
-                   <button type="submit" class="btn btn-outline-info">Simpan Data</button>
-                    <a href="{{ route('transaksi.index') }}" class="btn btn-outline-info">Back</a>
-                </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-outline-info">Simpan Data</button>
+                                         <a href="{{ route('transaksi.store') }}" class="btn btn-outline-info">Kembali</a>
+                                     </div>
                 </form>
                         </div>
                 </div>

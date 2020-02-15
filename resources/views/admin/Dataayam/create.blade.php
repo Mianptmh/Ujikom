@@ -16,15 +16,22 @@
                     </div>
                     <div class="form-group">
                             <label for="">Berat Ayam</label>
-                            <input class="form-control" type="text" name="berat">
+                            <input class="form-control" type="number" name="berat">
                         </div>
                         <div class="form-group">
-                            <label for="">Foto</label>
-                            <input type="file" class="form-control" name="gambar">
+                            <label for="">Gambar</label>
+                            <input class="form-control
+                            @error('gambar') is-invalid @enderror" type="file"
+                            name="gambar" id="" required>
+                            @error('gambar')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{$message}}</strong>
+                            </span>
+                            @enderror
                         </div>
                 <div class="form-group">
                    <button type="submit" class="btn btn-outline-info">Simpan Data</button>
-                    <a href="{{ route('dataayam.store') }}" class="btn btn-outline-info">Back</a>
+                    <a href="{{ route('dataayam.store') }}" class="btn btn-outline-info">Kembali</a>
                 </div>
                 </form>
                         </div>

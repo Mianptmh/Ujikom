@@ -15,7 +15,7 @@
                     <br>
                     <table class="table"3 >
                         <tr>
-                            <th>Nama Pembeli</th>
+                            <th>Nama</th>
                             <th>Jenis Hewan</th>
                             <th>Berat</th>
                             <th>Jumlah Ayam</th>
@@ -26,7 +26,7 @@
                         @php $no = 1; @endphp
                         @foreach ($transaksi as $data)
                             <tr>
-                                <td>{{$data->pembeli->nama_pembeli}}</td>
+                                <td>{{$data->pembeli->nama}}</td>
                                 <td>{{$data->dataayam->jenis_ayam}}</td>
                                 <td>{{$data->dataayam->berat}}</td>
                                 <td>{{ $data->jumlah_ayam }}</td>

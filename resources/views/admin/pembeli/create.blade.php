@@ -18,13 +18,15 @@
                         <label for="">Alamat</label>
                        <textarea name="alamat" id="alamat" cols="30" rows="5" class="form-control"></textarea>
                 </div>
+
                     <div class="form-group">
                             <label for="">No hp</label>
                             <input class="form-control" type="text" name="no_hp">
                         </div>
-                <div class="form-group">
-                   <button type="submit" class="btn btn-outline-info">Simpan Data</button>
-                    <a href="{{ route('pembeli.index') }}" class="btn btn-outline-info">Back</a>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-outline-info">Simpan Data</button>
+                             <a href="{{ route('pembeli.store') }}" class="btn btn-outline-info">Kembali</a>
+                         </div>
                 </div>
                 </form>
                         </div>
