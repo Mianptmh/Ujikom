@@ -21,7 +21,7 @@
 
                     <div class="form-group">
                             <label for="">No hp</label>
-                            <input class="form-control" type="text" name="no_hp">
+                            <input class="form-control" type="text" name="no_hp" id="">
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-outline-info">Simpan Data</button>

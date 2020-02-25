@@ -16,7 +16,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="">Berat</label>
-                                <input class="form-control" value="{{ $dataayam->berat }}" type="text" name="nama">
+                                <input class="form-control" value="{{ $dataayam->berat }}" type="text" name="berat">
                             </div>
                             <div class="form-group">
                                 <label for="">Gambar</label>
