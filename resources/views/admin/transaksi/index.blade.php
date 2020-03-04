@@ -37,7 +37,7 @@
                                     <form action="{{ route('transaksi.destroy', $data->id) }}" method="POST">
                                         @csrf
                                         <input type="hidden" name="_method" value="DELETE">
-                                        <button class="btn btn sm btn-danger" type="submit">Hapus Data</button>
+                                        <button class="btn btn sm btn-danger" type="submit">Hapus</button>
                                     </form>
                                 </td>
                             </tr>

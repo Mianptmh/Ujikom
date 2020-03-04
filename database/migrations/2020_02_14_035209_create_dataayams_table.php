@@ -17,7 +17,6 @@ class CreateDataayamsTable extends Migration
             $table->bigIncrements('id');
             $table->string('jenis_ayam');
             $table->integer('berat');
-            $table->string('gambar');
             $table->timestamps();
         });
     }

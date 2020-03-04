@@ -40,16 +40,6 @@ class DataayamController extends Controller
         $dataayam = new Dataayam();
         $dataayam->jenis_ayam = $request->jenis_ayam;
         $dataayam->berat = $request->berat;
-        if($request->hasFile('gambar')) {
-            $file = $request->file('gambar');
-            $path = public_patch() .'/assets/img/fotoayam';
-            $filename = str_random(6) .'_'
-            . $file->getClientOriginalName();
-            $upload = $file->move(
-                $path,$filename
-            );
-            $dataayam->gambar = $filename;
-        }
         $dataayam->save();
 
         return redirect()->route('dataayam.index');
@@ -89,21 +79,10 @@ class DataayamController extends Controller
     {
         $dataayam = Dataayam::findOrfail($id);
         $dataayam->jenis_ayam = $request->jenis_ayam;
-        $dataayam->harga = $request->harga;
-        // gambar
-        if ($request->hasFile('gambar')) {
-            $file = $request->file('gambar');
-            $path = public_path() .'/assets/img/fotoayam';
-            $filename = Str::random(6) . '_'
-            . $file->getClientOriginalName();
-            $upload = $file->move(
-                $path,$filename
-            );
-            $dataayam->gambar = $filename;
-        }
+        $dataayam->berat = $request->berat;
         $dataayam->save();
 
-        return redirect()->route('Dataayam.index');
+        return redirect()->route('dataayam.index');
     }
 
     /**

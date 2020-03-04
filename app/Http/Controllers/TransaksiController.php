@@ -47,7 +47,7 @@ class TransaksiController extends Controller
         $transaksi->jumlah_ayam = $request->jumlah_ayam;
         $transaksi->harga_total = $request->harga_total;
         $transaksi->save();
-        return redirect()->route('admin.transaksi.index');
+        return redirect()->route('transaksi.index');
     }
 
     /**
@@ -92,7 +92,7 @@ class TransaksiController extends Controller
         $transaksi->harga_total = $request->harga_total;
         $transaksi->save();
 
-        return redirect()->route('admin.transaksi.index');
+        return redirect()->route('transaksi.index');
     }
 
     /**

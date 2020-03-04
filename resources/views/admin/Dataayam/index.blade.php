@@ -18,7 +18,6 @@
                             <th>No</th>
                             <th>Jenis</th>
                             <th>Berat</th>
-                            <th>Gambar</th>
                             <th colspan="3" style="text-align:center;">Action</th>
                         </tr>
                         @php $no = 1; @endphp
@@ -27,14 +26,12 @@
                                 <td>{{ $no++ }}</td>
                                 <td>{{ $data->jenis_ayam }}</td>
                                 <td>{{ $data->berat}}Kg</td>
-                                <td><img src="{{asset('assets/img/fotoayam/' .$data->gambar. '')}}"
-                                    style="width:250px; height:250px;" alt="Foto"></td>
                                 <td><a href="{{ route('dataayam.edit', $data->id) }}" class="btn btn sm btn-success">Edit</a></td>
                                 <td>
                                     <form action="{{ route('dataayam.destroy', $data->id) }}" method="POST">
                                         @csrf
                                         <input type="hidden" name="_method" value="DELETE">
-                                        <button class="btn btn sm btn-danger" type="submit">Hapus Data</button>
+                                        <button class="btn btn sm btn-danger" type="submit">Hapus</button>
                                     </form>
                                 </td>
                             </tr>
