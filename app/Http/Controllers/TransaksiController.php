@@ -73,7 +73,7 @@ class TransaksiController extends Controller
         $transaksi = Transaksi::findOrfail($id);
         $pembeli = Pembeli::all();
         $dataayam = Dataayam::all();
-        return view('transaksi.edit', compact('transaksi','pembeli','dataayam'));
+        return view('admin.transaksi.edit', compact('transaksi','pembeli','dataayam'));
     }
 
     /**
@@ -105,10 +105,10 @@ class TransaksiController extends Controller
     {
         $transaksi = Transaksi::findOrFail($id);
         $pembeli = Pembeli::findOrFail($id);
-        $dataayam = Datayam::findOrFail($id);
+        $dataayam = Dataayam::findOrFail($id);
 
         $transaksi->delete();
 
-        return redirect()->route('admin.transaksi.index');
+        return redirect()->route('transaksi.index');
     }
 }

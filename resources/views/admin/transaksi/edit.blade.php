@@ -53,7 +53,7 @@
                             <select class="form-control
                             @error('dataayam') is-invalid @enderror"
                             name="id_dataayam" id="" required>
-                                @foreach ($kategori as $data)
+                                @foreach ($dataayam as $data)
                                     <option value="{{$data->id}}"
                                         @if ($data->id == $transaksi->id_dataayam) selected="selected" @endif>
                                         {{ $data->berat }}
@@ -65,12 +65,6 @@
                                 <strong>{{$message}}</strong>
                             </span>
                             @enderror
-                        </div>
-
-
-                            <div class="form-group">
-                                <label for="">Alamat</label>
-                               <textarea name="alamat" id="alamat" cols="30" rows="5" class="form-control"></textarea>
                         </div>
 
                             <div class="card-body">
@@ -90,14 +84,14 @@
                                     </div>
 
                         <div class="card-body">
-                            <form action="{{route('transaski.update', $transaski->id)}}" method="post" enctype="multipart/form-data">
+                            <form action="{{route('transaksi.update', $transaksi->id)}}" method="post" enctype="multipart/form-data">
                                 <input type="hidden" name="_method" value="PATCH">
                                 {{csrf_field()}}
                                 <div class="form-group">
                                     <label for="">Harga Total</label>
                                     <input class="form-control
                                     @error('harga_total') is-invalid @enderror" type="text"
-                                    name="harga_total" id="" value="{{$transaski->harga_total}}" required>
+                                    name="harga_total" id="" value="{{$transaksi->harga_total}}" required>
                                     @error('harga_total')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{$message}}</strong>
