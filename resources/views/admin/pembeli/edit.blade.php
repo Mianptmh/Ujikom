@@ -16,11 +16,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="">Alamat</label>
-                               <textarea name="alamat" id="alamat" cols="30" rows="5" class="form-control"></textarea>
+                               <textarea name="alamat" id="alamat" cols="30" rows="5" class="form-control" required>{{ $pembeli->alamat}}</textarea>
                         </div>
                                 <div class="form-group">
                                         <label for="">No Hp </label>
-                                        <input class="form-control" value="{{ $pembeli->no_hp }}" type="text" name="no_hp">
+                                        <input class="form-control" value="{{ $pembeli->no_hp }}" type="text" name="no_hp" id="">
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-outline-info">Simpan Data</button>
