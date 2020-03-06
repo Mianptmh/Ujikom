@@ -104,9 +104,6 @@ class TransaksiController extends Controller
     public function destroy($id)
     {
         $transaksi = Transaksi::findOrFail($id);
-        $pembeli = Pembeli::findOrFail($id);
-        $dataayam = Dataayam::findOrFail($id);
-
         $transaksi->delete();
 
         return redirect()->route('transaksi.index');
